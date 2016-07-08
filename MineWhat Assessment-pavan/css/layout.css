@@ -1,0 +1,39 @@
+#navbarColor {
+	background-color: #DB1627;
+	margin-bottom: 0px;
+}
+
+.pageTitle {
+	min-height: 50px;
+	background-color: #F1F1F1;
+}
+
+.mainContent {
+	margin-top: 35px;
+}
+
+.thead-default{
+	background-color: #F1F1F1;
+	border-bottom: 3px solid white;
+}
+
+.table-active {
+	background-color:#F8F8F8;
+	border-bottom: 3px solid white;
+}
+
+.product {
+	border:1px solid #999;
+	height: 100%;
+	width:85%;
+	margin: 10px;
+	
+	position: relative;
+	padding-left: 0px;
+
+}
+
+.topProductSection {
+	margin-top: 20px;
+}
+

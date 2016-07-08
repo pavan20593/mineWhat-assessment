@@ -1,0 +1,26 @@
+@media(max-width: 470px){
+	.graphSection{
+		padding-left:0px;
+	}
+
+	.graphView {
+		padding-left: :0px;
+	}
+
+	#container{
+		width:300px;
+		margin:0px;
+	}
+
+	.fullWidthProductDisplay {
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+.highcharts-axis-labels text:nth-child(even) {
+display:none;
+}
+}
