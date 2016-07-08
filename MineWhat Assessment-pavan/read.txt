@@ -1,0 +1,17 @@
+Hello,
+
+Points to be Marked Important :
+
+1.) I am using CDN version of font awesome to reduce the space in the local folder.
+2.) I am Using Highchart.js , one of the main reason would be its has customizable options when compared to google charts. and amcharts.
+		I tried with amchart, chart.js,chartnew.js,google charts. everything was missing some fine tuning. and google charts was not at all responsive, it is mentioned in its docs too.
+
+		Compared to other i have tried.. i found highcharts simple yet elegant. so i have used Highcharts.
+
+3.) I tried to differentiate, style,layout styles and media queries.. just for a good habit of coding.. could have been done in a single css.
+4.) i am using the URL to import highchart js, for the same reason of reducing the space in my local storage, I though of using Bower components for easier usage. but as it is a small application. i didnt find it amusing to use those.
+
+5.) I have tried to Replicate most of the aspects, however, i could not capture the font family, which was in the image. if i had known that.. it would have been much better and much resembling.
+6.) As in Responsivenes.. i tried to manage most of the responsiveness using bootstrap grid system, however, When the graphs are present, it requires more media queries to bring it down till 350-300px.
+i have tried my best using only 2-3 media queries. to bring it till 350 odd pixels.
+

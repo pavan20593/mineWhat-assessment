@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Mine What</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	
+	<link href="css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/media_query.css" rel="stylesheet" type="text/css" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="js/custom.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-default" id="navbarColor">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<span id="brandTitle"> MY APPLICATION </span>
+					</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="pageTitle">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">
+				<span id="pageTitleName">SAMPLE PAGE</span>
+			</a>
+		</div>
+	</section>
+
+	<div class="container-fluid mainContent">
+		<section class="revenueSection col-md-4 col-xs-12">
+			<p class="sectionTitle">REVENUE BY ACQUISITION SOURCE</p>
+			<table class="table" height="inherit">
+				<thead class="thead-default">
+					<tr>
+						<th>Sources</th>
+						<th>Revenue</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="table-active">
+						<td>FACEBOOK.COM</td>
+						<td>$6090</td>
+					</tr>
+					<tr class="table-active">
+						<td>QUORA.COM</td>
+						<td>$3045</td>
+					</tr>
+					<tr class="table-active">
+						<td>TWITTER.COM</td>
+						<td>$2284</td>
+					</tr>
+					<tr class="table-active">
+						<td>EMAIL</td>
+						<td>$1675</td>
+					</tr>
+					<tr class="table-active">
+						<td>ORGANIC</td>
+						<td>$1370</td>
+					</tr>
+					<tr class="table-active">
+						<td>DIRECT</td>
+						<td>$1370</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section class="graphSection col-md-8 col-xs-12">
+			<p class="sectionTitle col-xs-12">DEVICE DISTRIBUTION</p>
+			<div class="graphView col-xs-12" style="text-align:center;">
+				<div id="container" ></div>
+			</div>
+
+			
+
+		</section>
+
+		<section class="topProductSection col-xs-12">
+			<p class="sectionTitle col-xs-12">TOP PRODUCTS</p>
+
+			<section class="productSection">
+				<div class="col-md-3 col-xs-6 fullWidthProductDisplay">
+					<div class="product">
+						<div class="productInfo col-xs-12">
+							<div class="productNumber">
+								<span class="centerProductNumber col-xs-2">1</span>
+							</div>
+							<img src="assets/boot.jpg" alt="product Image" class="productImage">
+						</div>
+						<div class="col-xs-12" style="border-bottom:1px solid #ccc">
+							<span class="productName">TWISTED BOOTS </span><br>
+							<small class="viewInfo"> <span class="viewCount">+154 </span>Views 2 days ago</small> 
+						</div>
+						
+
+						<div class="productStats" style="padding-top:10px;">
+							<table class='table table-borderless' style="background-image: url(assets/bg.png); width:100%"">
+								<tbody>
+									<tr>
+										<td class="infoName">Views</td>
+										<td class="infoValue">10989</td>
+									</tr>
+									<tr>
+										<td class="infoName">purchases</td>
+										<td class="infoValue">8908</td>
+									</tr>
+									<tr>
+										<td class="infoName">Conversion Rate</td>
+										<td class="infoValue">3.5%</td>
+									</tr>
+									<tr>
+										<td class="infoName">Revenue</td>
+										<td class="infoValue">$8908</td>
+									</tr>
+								</tbody>
+							</table>
+							<span class="collapseButton"><i class="fa fa-angle-up"></i></span>
+						</div>
+						
+						
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-6 fullWidthProductDisplay">
+					<div class="product">
+						<div class="productInfo col-xs-12">
+							<div class="productNumber">
+								<span class="centerProductNumber col-xs-2">2</span>
+							</div>
+							<img src="assets/boot.jpg" alt="product Image" class="productImage">
+						</div>
+						<div class="col-xs-12" style="border-bottom:1px solid #ccc">
+							<span class="productName">TWISTED BOOTS </span><br>
+							<small class="viewInfo"> <span class="viewCount">+154 </span>Views 2 days ago</small> 
+						</div>
+						
+
+						<div class="productStats" style="padding-top:10px;">
+							<table class='table table-borderless' style="background-image: url(assets/bg.png); width:100%"">
+								<tbody>
+									<tr>
+										<td class="infoName">Views</td>
+										<td class="infoValue">10989</td>
+									</tr>
+									<tr>
+										<td class="infoName">purchases</td>
+										<td class="infoValue">8908</td>
+									</tr>
+									<tr>
+										<td class="infoName">Conversion Rate</td>
+										<td class="infoValue">3.5%</td>
+									</tr>
+									<tr>
+										<td class="infoName">Revenue</td>
+										<td class="infoValue">$8908</td>
+									</tr>
+								</tbody>
+							</table>
+							<span class="collapseButton"><i class="fa fa-angle-up"></i></span>
+						</div>
+						
+						
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-6 fullWidthProductDisplay">
+					<div class="product">
+						<div class="productInfo col-xs-12">
+							<div class="productNumber">
+								<span class="centerProductNumber col-xs-2">3</span>
+							</div>
+							<img src="assets/boot.jpg" alt="product Image" class="productImage">
+						</div>
+						<div class="col-xs-12" style="border-bottom:1px solid #ccc">
+							<span class="productName">TWISTED BOOTS </span><br>
+							<small class="viewInfo"> <span class="viewCount">+154 </span>Views 2 days ago</small> 
+						</div>
+						
+
+						<div class="productStats" style="padding-top:10px;">
+							<table class='table table-borderless' style="background-image: url(assets/bg.png); width:100%"">
+								<tbody>
+									<tr>
+										<td class="infoName">Views</td>
+										<td class="infoValue">10989</td>
+									</tr>
+									<tr>
+										<td class="infoName">purchases</td>
+										<td class="infoValue">8908</td>
+									</tr>
+									<tr>
+										<td class="infoName">Conversion Rate</td>
+										<td class="infoValue">3.5%</td>
+									</tr>
+									<tr>
+										<td class="infoName">Revenue</td>
+										<td class="infoValue">$8908</td>
+									</tr>
+								</tbody>
+							</table>
+							<span class="collapseButton"><i class="fa fa-angle-up"></i></span>
+						</div>
+						
+						
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-6 fullWidthProductDisplay">
+					<div class="product">
+						<div class="productInfo col-xs-12">
+							<div class="productNumber">
+								<span class="centerProductNumber col-xs-2">4</span>
+							</div>
+							<img src="assets/boot.jpg" alt="product Image" class="productImage">
+						</div>
+						<div class="col-xs-12" style="border-bottom:1px solid #ccc">
+							<span class="productName">TWISTED BOOTS </span><br>
+							<small class="viewInfo"> <span class="viewCount">+154 </span>Views 2 days ago</small> 
+						</div>
+						
+
+						<div class="productStats" style="padding-top:10px;">
+							<table class='table table-borderless' style="background-image: url(assets/bg.png); width:100%"">
+								<tbody>
+									<tr>
+										<td class="infoName">Views</td>
+										<td class="infoValue">10989</td>
+									</tr>
+									<tr>
+										<td class="infoName">purchases</td>
+										<td class="infoValue">8908</td>
+									</tr>
+									<tr>
+										<td class="infoName">Conversion Rate</td>
+										<td class="infoValue">3.5%</td>
+									</tr>
+									<tr>
+										<td class="infoName">Revenue</td>
+										<td class="infoValue">$8908</td>
+									</tr>
+								</tbody>
+							</table>
+							<span class="collapseButton"><i class="fa fa-angle-up"></i></span>
+						</div>
+						
+						
+					</div>
+				</div>
+			</section>
+
+			
+		</section>
+	</div>
+
+	
+
+</body>
+</html>
